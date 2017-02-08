@@ -48,3 +48,11 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
